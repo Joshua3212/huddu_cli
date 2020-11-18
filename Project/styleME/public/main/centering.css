@@ -1,0 +1,19 @@
+.vr-center {
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  margin: auto;
+}
+
+.hr-center {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.absolute-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

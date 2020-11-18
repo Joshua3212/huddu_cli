@@ -1,0 +1,32 @@
+/*border-radius*/
+.br-1 {
+    border-radius: 1px;
+}
+
+.br-3 {
+    border-radius: 3px;
+}
+
+.br-5 {
+    border-radius: 5px;
+}
+
+.br-7 {
+    border-radius: 7px;
+}
+
+.br-10 {
+    border-radius: 10px;
+}
+
+.br-13 {
+    border-radius: 13px;
+}
+
+.br-16 {
+    border-radius: 16px;
+}
+
+.br-20 {
+    border-radius: 20px;
+}

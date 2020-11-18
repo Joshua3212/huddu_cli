@@ -1,0 +1,69 @@
+/*Text Colors*/
+.red {
+  color: rgb(255, 130, 130);
+}
+
+.blue {
+  color: rgba(0, 0, 252, 0.753);
+}
+
+.yellow {
+  color: rgb(226, 226, 126);
+}
+
+.green {
+  color: rgb(150, 253, 196);
+}
+
+.grey {
+  color: rgb(95, 95, 95);
+}
+
+.lightgrey {
+  color: rgb(241, 241, 241);
+}
+
+.darkgrey {
+  color: rgb(77, 77, 77);
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+/*Background Colors*/
+.bg-red {
+  background-color: red;
+}
+
+.bg-blue {
+  background-color: rgb(143, 169, 253);
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.bg-lightgrey {
+  background-color: rgb(241, 241, 241);
+}
+
+.bg-darkgrey {
+  background-color: rgb(37, 37, 37);
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-black {
+  background-color: black;
+}

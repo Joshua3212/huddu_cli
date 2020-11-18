@@ -1,0 +1,15 @@
+.tip:hover {
+    cursor: help;
+}
+
+.tip span {
+    display: none;
+}
+
+.tip:hover span {
+    position: absolute;
+    display: flex;
+    z-index: +100;
+    margin-left: 30px;
+
+}

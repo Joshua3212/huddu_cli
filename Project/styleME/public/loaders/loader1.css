@@ -1,0 +1,50 @@
+.loader1 .box1 {
+    position: absolute;
+    display: inline-block;
+    transform: translate3d(0px, 0px, 0px);
+    margin: 20px 20px 20px -20px;
+    width: 15px;
+    height: 45px;
+    animation: box1 1s linear infinite;
+
+}
+
+.loader1 .box2 {
+    position: absolute;
+    display: inline-block;
+    margin: 20px 20px 20px 0px;
+    width: 15px;
+    height: 45px;
+    animation: box2 1s linear infinite;
+}
+
+.loader1 .box3 {
+    position: absolute;
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+    width: 15px;
+    height: 45px;
+    animation: box3 1s linear infinite;
+}
+
+
+@keyframes box1 {
+    15% {
+        transform: translate3d(0px, -7.5px, 0px);
+        height: 60px;
+    }
+}
+
+@keyframes box2 {
+    45% {
+        transform: translate3d(0px, -7.5px, 0px);
+        height: 60px;
+    }
+}
+
+@keyframes box3 {
+    85% {
+        transform: translate3d(0px, -7.5px, 0px);
+        height: 60px;
+    }
+}

@@ -1,0 +1,23 @@
+@import './colors.css';
+@import './spacing.css';
+@import './wrapper.css';
+@import './box.css';
+@import './borderradius.css';
+@import './shadow.css';
+@import './centering.css';
+@import './buttons.css';
+@import './forms.css';
+@import './font-size.css';
+@import './fonts.css';
+@import './other.css';
+@import './fontweight.css';
+@import './alignment.css';
+@import './tooltip.css';
+@import './flexbox.css';
+@import './opacity.css';
+@import './position.css';
+
+* {
+    margin: 0;
+    padding: 0;
+}

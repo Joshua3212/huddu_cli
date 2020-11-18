@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.btn {
+  border: none;
+  background: none;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 15px;
+  font-size: 15px;
+  outline: none;
+  cursor: pointer;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn:hover {
+  transition: .2s ease;
+  box-shadow: 1px 2.5px 5px 2px rgba(0, 0, 0, 0.233);
+  background-color: rgb(245, 245, 245);
+}
+
+.btn-blue {
+  border: none;
+  background: none;
+  text-decoration: none;
+  background-color: rgba(0, 0, 252, 0.753);
+  color: white;
+  border-radius: 3px;
+  padding: 15px;
+  font-size: 15px;
+  outline: none;
+  cursor: pointer;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-blue:hover {
+  transition: .2s ease;
+  box-shadow: 1px 2.5px 5px 2px rgba(0, 0, 0, 0.233);
+  background-color: rgba(0, 0, 252, 0.726);
+  color: rgb(228, 238, 255);
+}
+
+
+.btn-green {
+  border: none;
+  background: none;
+  text-decoration: none;
+  background-color: rgba(1, 133, 1, 0.753);
+  color: white;
+  border-radius: 3px;
+  padding: 15px;
+  font-size: 15px;
+  outline: none;
+  cursor: pointer;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-green:hover {
+  transition: .2s ease;
+  box-shadow: 1px 2.5px 5px 2px rgba(0, 0, 0, 0.233);
+  background-color: rgba(1, 133, 1, 0.699);
+  color: rgb(229, 255, 228);
+}
+
+
+
+.btn-red {
+  border: none;
+  background: none;
+  text-decoration: none;
+  background-color: #e33627;
+  color: white;
+  border-radius: 3px;
+  padding: 15px;
+  font-size: 15px;
+  outline: none;
+  cursor: pointer;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-red:hover {
+  transition: .2s ease;
+  box-shadow: 1px 2.5px 5px 2px rgba(0, 0, 0, 0.233);
+  background-color: #cc2e21;
+  color: rgb(229, 255, 228);
+}

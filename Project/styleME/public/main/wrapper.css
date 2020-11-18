@@ -1,0 +1,35 @@
+/*wrapper #1*/
+
+.wr-1 {
+    margin: 0 auto;
+    width: 65%;
+}
+
+/*1600px width*/
+@media screen and (max-width: 1600px) {
+    .wr-1 {
+        width: 80%;
+    }
+}
+
+/*800px width*/
+@media screen and (max-width: 800px) {
+    .wr-1 {
+        width: 95%;
+        font-size: smaller;
+    }
+}
+
+
+
+/*Popup wrapper*/
+.wr-popup {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    background: #000;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+}

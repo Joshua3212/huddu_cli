@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StyleME</title>
+  <link rel="stylesheet" href="https://styleme-feef2.firebaseapp.com/main/main.css " />
+  <link rel="stylesheet" href="https://styleme-feef2.firebaseapp.com/nav/main.css " />
+</head>
+
+<body class="bg-lightgrey">
+  <!--Navbar-->
+  <nav class="nav">
+    <button id="navOpen"><img src="./media/menu.png" alt="" /></button>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Horlo%C4%9Do_001.svg/220px-Horlo%C4%9Do_001.svg.png"
+      alt="" />
+    <h1 class="grey"><a href="#" class="grey">WebApp</a></h1>
+    <div class="mobile-nav-darken"></div>
+    <div class="inner-nav">
+      <button id="navClose"><img src="./media/close.png" alt="" /></button>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Horlo%C4%9Do_001.svg/220px-Horlo%C4%9Do_001.svg.png"
+        alt="" />
+      <h1 class="grey"><a href="#" class="grey">WebApp</a></h1>
+      <hr />
+      <a href="#" class="darkgrey">Link1</a>
+      <hr />
+      <a href="#" class="darkgrey">Link2</a>
+      <hr />
+      <a href="#" class="darkgrey">Link3</a>
+      <hr />
+    </div>
+  </nav>
+  <!--navbar end-->
+  <br />
+  <div class="m-5"></div>
+  <div class="wr-1">
+    <div class="box bg-white sh-1">
+      <h1 class="fs-30 roboto">Getting Started:</h1>
+      <br />
+      <div class="box bg-darkgrey">
+        <xmp class="green">
+          <!--import the css files-->
+          <!--No need to import the Nav file if you don't need a Nav-->
+        </xmp>
+        <xmp class="white">
+
+          <link rel="stylesheet" href="https://styleme-feef2.firebaseapp.com/main/main.css ">
+          <link rel="stylesheet" href="https://styleme-feef2.firebaseapp.com/nav/main.css ">
+          <link rel="stylesheet" href="https://styleme-feef2.firebaseapp.com/loaders/main.css ">
+          ...
+          ...
+          ...
+
+        </xmp>
+        <xmp class="green">
+          <!--import the js files at the bottom-->
+          <!--Again import the files you need-->
+        </xmp>
+
+        <xmp class="white">
+          <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+          <script src="https://styleme-feef2.firebaseapp.com/js/nav.js"></script>
+          <script src="https://styleme-feef2.firebaseapp.com/js/popup.js"></script>
+          <script src="https://styleme-feef2.firebaseapp.com/js/tooltip.js"></script>
+        </xmp>
+      </div>
+      <div class="m-1"></div>
+      <br />
+      <a class="btn-blue">Try it</a>
+      <div class="m-1"></div>
+    </div>
+    <div class="m-3"></div>
+    <div class="box bg-white sh-1">
+      <h1 class="fs-30 roboto">The Navbar:</h1>
+      <br />
+      <div class="box bg-darkgrey">
+        <xmp class="green">
+          <!--This is how you can use the Navbar-->
+          <!--to do : Change the picture-->
+        </xmp>
+        <xmp class="white">
+          <nav class="nav">
+            <button id="navOpen"><img src="./media/menu.png" alt=""></button>
+            <img src="https://wikicdn.web.app/uploads/category/landscape/landscape.jpg" alt="">
+            <h1 class="grey"><a href="#" class="grey">WebApp</a></h1>
+            <div class="mobile-nav-darken"></div>
+            <div class="inner-nav">
+              <button id="navClose"><img src="./media/close.png" alt="">
+              </button>
+              <img src="https://wikicdn.web.app/uploads/category/landscape/landscape.jpg" alt="">
+              <h1 class="grey"><a href="#" class="grey">WebApp</a></h1>
+              <hr>
+              <a href="#" class="darkgrey">Link1</a>
+              <hr>
+              <a href="#" class="darkgrey">Link2</a>
+              <hr>
+              <a href="#" class="darkgrey">Link3</a>
+              <hr>
+            </div>
+          </nav>
+        </xmp>
+      </div>
+      <div class="m-1"></div>
+      <br />
+      <a class="btn-blue">Try it</a>
+      <div class="m-1"></div>
+    </div>
+    <div class="m-3"></div>
+    <div class="box bg-white sh-1">
+      <h1 class="fs-30 roboto">The Popup:</h1>
+      <br />
+      <div class="box bg-darkgrey">
+        <xmp class="green">
+          <!--This is how you can use the popup-->
+        </xmp>
+        <xmp class="white">
+          <!--wrapper for black background-->
+          <div class="wr-popup popup hide" onclick="popup()"></div>
+          <div class="popup box sh-1 bg-white">
+            <h1>hey I'm a popup</h1>
+          </div>
+
+        </xmp>
+      </div>
+      <div class="m-1"></div>
+      <br />
+      <a class="btn-blue">Try it</a>
+      <div class="m-1"></div>
+    </div>
+
+
+    <div class="m-3"></div>
+    <div class="box bg-white sh-1">
+      <h1 class="fs-30 roboto">The Tooltip:</h1>
+      <br />
+      <div class="box bg-darkgrey">
+        <xmp class="green">
+          <!--This is how you can use the tooltip-->
+        </xmp>
+        <xmp class="white">
+          <!--wrapper for black background-->
+          <div class="tip">
+            <h1>Hello</h1>
+            <!--listens to a span-->
+            <span>hello</span>
+          </div>
+        </xmp>
+      </div>
+      <div class="m-1"></div>
+      <br />
+      <a class="btn-blue">Try it</a>
+      <div class="m-1"></div>
+    </div>
+
+
+    <div class="m-3"></div>
+    <div class="box bg-white sh-1">
+      <h1 class="fs-30 roboto">The Loader1:</h1>
+      <br />
+      <div class="box bg-darkgrey">
+        <xmp class="green">
+          <!--This is how you can use the tooltip-->
+        </xmp>
+        <xmp class="white">
+          <!--usage of loader1-->
+          <div class="loader1">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+          </div>
+        </xmp>
+      </div>
+      <div class="m-1"></div>
+      <br />
+      <a class="btn-blue">Try it</a>
+      <div class="m-1"></div>
+    </div>
+
+
+
+    <div class="m-5"></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://styleme-feef2.firebaseapp.com/js/nav.js"></script>
+  <script src="https://styleme-feef2.firebaseapp.com/js/popup.js"></script>
+</body>
+
+</html>

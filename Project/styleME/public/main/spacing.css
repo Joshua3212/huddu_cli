@@ -1,0 +1,66 @@
+/*margin*/
+.m-1 {
+    margin: 1rem;
+}
+
+.m-3 {
+    margin: 3rem;
+}
+
+.m-5 {
+    margin: 5rem;
+}
+
+.m-7 {
+    margin: 7rem;
+}
+
+.m-10 {
+    margin: 10rem;
+}
+
+.m-13 {
+    margin: 13rem;
+}
+
+.m-16 {
+    margin: 16rem;
+}
+
+.m-20 {
+    margin: 20rem;
+}
+
+
+/*padding*/
+.p-1 {
+    padding: 1rem;
+}
+
+.p-3 {
+    padding: 3rem;
+}
+
+.p-5 {
+    padding: 5rem;
+}
+
+.p-7 {
+    padding: 7rem;
+}
+
+.p-10 {
+    padding: 10rem;
+}
+
+.p-13 {
+    padding: 13rem;
+}
+
+.p-16 {
+    padding: 16rem;
+}
+
+.p-20 {
+    padding: 20rem;
+}
